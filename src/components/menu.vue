@@ -8,7 +8,7 @@
       <a href="#/locais" class="w3-bar w3-button w3-border-bottom" onclick="w3_close()"><i class="fa fa-map-signs w3-margin-right"></i> Locais</a>
       <a href="#/avisos" class="w3-bar w3-button w3-border-bottom" onclick="w3_close()"><i class="fa fa-bell-o w3-margin-right"></i> Avisos</a>
       <a href="#/sobre" class="w3-bar w3-button w3-border-bottom" onclick="w3_close()"><i class="fa fa-info-circle w3-margin-right"></i> Sobre</a>
-      <a href="#/" class="w3-bar w3-button" onclick="w3_close()"><i class="fa fa-sign-out w3-margin-right"></i>Sair</a>
+      <a href="#/" class="w3-bar w3-button" onclick="w3_close();localStorage.clear();"><i class="fa fa-sign-out w3-margin-right"></i>Sair</a>
     </nav>
     <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="Close Sidemenu" id="myOverlay"></div>
   </div>

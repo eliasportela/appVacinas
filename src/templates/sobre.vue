@@ -15,49 +15,101 @@
         <div class="w3-bar w3-light-gray w3-padding-small">Web Designer</div>
         <div class="w3-cell-roll w3-padding">
           <div class="w3-cell" style="width:20%">
-            <i class="fa fa-user"></i>
+            <img src="/assets/imgs/devs/elias.jpg" class="w3-image">
           </div>
-          <div class="w3-cell" style="width:90%">
-            Elias Portela
+          <div class="w3-cell w3-cell-middle w3-center" style="width:80%">
+            <b>Elias Portela</b>
           </div>
         </div>
         <div class="w3-bar w3-light-gray w3-padding-small">Backends</div>
         <div class="w3-cell-roll w3-padding">
           <div class="w3-cell" style="width:20%">
-            <i class="fa fa-user"></i>
+            <img src="/assets/imgs/devs/mahezer.jpeg" class="w3-image">
           </div>
-          <div class="w3-cell" style="width:90%">
-            Elias Portela
+          <div class="w3-cell w3-cell-middle w3-center" style="width:80%">
+            <b>Mahezer Carvalho</b>
           </div>
         </div>
         <div class="w3-cell-roll w3-padding">
           <div class="w3-cell" style="width:20%">
-            <i class="fa fa-user"></i>
+            <img src="/assets/imgs/devs/jorge.jpg" class="w3-image">
           </div>
-          <div class="w3-cell" style="width:90%">
-            Elias Portela'
+          <div class="w3-cell w3-cell-middle w3-center" style="width:80%">
+            <b>Jorge Faleiros</b>
           </div>
         </div>
         <div class="w3-bar w3-light-gray w3-padding-small">Analistas</div>
         <div class="w3-cell-roll w3-padding">
           <div class="w3-cell" style="width:20%">
-            <i class="fa fa-user"></i>
+            <img src="/assets/imgs/devs/badoco.jpg" class="w3-image">
           </div>
-          <div class="w3-cell" style="width:90%">
-            Elias Portela
+          <div class="w3-cell w3-cell-middle w3-center" style="width:80%">
+            <b>Matheus Henrique</b>
           </div>
         </div>
         <div class="w3-cell-roll w3-padding">
           <div class="w3-cell" style="width:20%">
-            <i class="fa fa-user"></i>
+            <img src="/assets/imgs/devs/andrelino.jpg" class="w3-image">
           </div>
-          <div class="w3-cell" style="width:90%">
-            Elias Portela
+          <div class="w3-cell w3-cell-middle w3-center" style="width:80%">
+            <b>Andrelino Faria</b>
           </div>
         </div>
       </div>
       <div class="w3-border-bottom w3-margin-top">
         Apoio
+      </div>
+      <div class="w3-container w3-margin-top w3-center" style="width:100%">
+        <div class="w3-half w3-margin-top">
+          <div class="w3-card-2 w3-padding">
+            <img src="/assets/imgs/patrocinadores/aion.png" class="w3-image">
+          </div>
+        </div>
+        <div class="w3-half w3-margin-top">
+          <div class="w3-card-2 w3-padding">
+            <img src="/assets/imgs/patrocinadores/chb.png" class="w3-image">
+          </div>
+        </div>
+        <div class="w3-half w3-margin-top">
+          <div class="w3-card-2 w3-padding">
+            <img src="/assets/imgs/patrocinadores/jrti.png" class="w3-image">
+          </div>
+        </div>
+        <div class="w3-half w3-margin-top">
+          <div class="w3-card-2 w3-padding">
+            <img src="/assets/imgs/patrocinadores/irroba.png" class="w3-image">
+          </div>
+        </div>
+        <div class="w3-half w3-margin-top">
+          <div class="w3-card-2 w3-padding">
+            <img src="/assets/imgs/patrocinadores/ernetwork.png" class="w3-image">
+          </div>
+        </div>
+        <div class="w3-half w3-margin-top">
+          <div class="w3-card-2 w3-padding">
+            <img src="/assets/imgs/patrocinadores/eddydata.png" class="w3-image">
+          </div>
+        </div>
+        <div class="w3-half w3-margin-top">
+          <div class="w3-card-2 w3-padding">
+            <img src="/assets/imgs/patrocinadores/smn.png" class="w3-image">
+          </div>
+        </div>
+        <div class="w3-half w3-margin-top">
+          <div class="w3-card-2 w3-padding">
+            <img src="/assets/imgs/patrocinadores/brasao.png" class="w3-image">
+          </div>
+        </div>
+        <div class="w3-half w3-margin-top">
+          <div class="w3-card-2 w3-padding">
+            <img src="/assets/imgs/patrocinadores/franca.png" class="w3-image">
+          </div>
+        </div>
+        <div class="w3-half w3-margin-top">
+          <div class="w3-card-2 w3-padding">
+            <img src="/assets/imgs/patrocinadores/facef.png" class="w3-image">
+          </div>
+        </div>
       </div>
     </div>
   </div>
