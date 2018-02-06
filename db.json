@@ -67,45 +67,151 @@
   "vacines": [
     {
       "id_user": "1",
-      "ok": {},
-      "coming": {},
-      "late": {}
+      "status": "ok",
+      "dose": "U",
+      "name": "Anti tetanica"
+    },
+    {
+      "id_user": "1",
+      "status": "late",
+      "dose": "U",
+      "name": "Anti tetanica"
+    },
+    {
+      "id_user": "1",
+      "status": "coming",
+      "dose": "U",
+      "name": "Anti tetanica"
     },
     {
       "id_user": "2",
-      "ok": {},
-      "coming": {},
-      "late": {}
+      "status": "ok",
+      "dose": "U",
+      "name": "Anti tetanica"
+    },
+    {
+      "id_user": "2",
+      "status": "late",
+      "dose": "U",
+      "name": "Anti tetanica"
+    },
+    {
+      "id_user": "2",
+      "status": "coming",
+      "dose": "U",
+      "name": "Anti tetanica"
     },
     {
       "id_user": "3",
-      "ok": {},
-      "coming": {},
-      "late": {}
+      "status": "ok",
+      "dose": "U",
+      "name": "Anti tetanica"
+    },
+
+    {
+      "id_user": "3",
+      "status": "late",
+      "dose": "U",
+      "name": "Anti tetanica"
+    },
+    {
+      "id_user": "3",
+      "status": "coming",
+      "dose": "U",
+      "name": "Anti tetanica"
     },
     {
       "id_user": "4",
-      "ok": {},
-      "coming": {},
-      "late": {}
+      "status": "ok",
+      "dose": "U",
+      "name": "Anti tetanica"
+    },
+    {
+      "id_user": "4",
+      "status": "late",
+      "dose": "U",
+      "name": "Anti tetanica"
+    },
+    {
+      "id_user": "4",
+      "status": "coming",
+      "dose": "U",
+      "name": "Anti tetanica"
     },
     {
       "id_user": "5",
-      "ok": {},
-      "coming": {},
-      "late": {}
+      "status": "ok",
+      "dose": "U",
+      "name": "Anti tetanica"
+    },
+    {
+      "id_user": "5",
+      "status": "late",
+      "dose": "U",
+      "name": "Anti tetanica"
+    },
+    {
+      "id_user": "5",
+      "status": "coming",
+      "dose": "U",
+      "name": "Anti tetanica"
     },
     {
       "id_user": "6",
-      "ok": {},
-      "coming": {},
-      "late": {}
+      "status": "ok",
+      "dose": "U",
+      "name": "Anti tetanica"
+    },
+
+    {
+      "id_user": "6",
+      "status": "late",
+      "dose": "U",
+      "name": "Anti tetanica"
+    },
+    {
+      "id_user": "6",
+      "status": "coming",
+      "dose": "U",
+      "name": "Anti tetanica"
     },
     {
       "id_user": "7",
-      "ok": {},
-      "coming": {},
-      "late": {}
+      "status": "ok",
+      "dose": "U",
+      "name": "Anti tetanica"
+    },
+    {
+      "id_user": "7",
+      "status": "late",
+      "dose": "U",
+      "name": "Anti tetanica"
+    },
+    {
+      "id_user": "7",
+      "status": "coming",
+      "dose": "U",
+      "name": "Anti tetanica"
     }
+  ],
+  "outposts": [
+    {
+      "endereco": "Av. Major Nicácio",
+      "numero": "123",
+      "cep": "14000-000",
+      "telefone": "3720-0000"
+    }, 
+    {
+      "endereco": "Av. Abrão Brickman",
+      "numero": "321",
+      "cep": "14000-000",
+      "telefone": "3720-1234"
+    }, 
+    {
+      "endereco": "R. Voluntários da Franca",
+      "numero": "829",
+      "cep": "14000-000",
+      "telefone": "3723-8392"
+    } 
   ]
 }

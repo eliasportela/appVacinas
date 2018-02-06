@@ -9,13 +9,13 @@
     </div>
     <div class="w3-display-middle w3-text-blue w3-card-4 w3-white w3-padding w3-round w3-center" style="z-index:1; width:80%" v-show="erro">
       <i class="fa fa-times fa-3x w3-text-red"></i><br>
-      <small>Ops.Parece que houve Algum erro. Por favor tente novamente</small>
-      <button class="w3-button w3-block w3-small w3-blue w3-margin-top w3-hover-blue" onclick="location.reload()">Recarregar Página</button>
+      <small>Ops. Parece que houve algum erro. Por favor tente novamente</small>
+      <button class="w3-button w3-block w3-small w3-blue w3-margin-top w3-hover-blue" onclick="location.reload()">Recarregar página</button>
     </div>
     <div class="w3-display-middle w3-text-blue w3-card-4 w3-white w3-padding w3-round w3-center" style="z-index:1; width:80%" v-show="erro">
       <i class="fa fa-times fa-3x w3-text-red"></i><br>
       <small>Ops.Parece que houve Algum erro. Por favor tente novamente</small>
-      <button class="w3-button w3-block w3-small w3-blue w3-margin-top w3-hover-blue" onclick="location.reload()">Recarregar Página</button>
+      <button class="w3-button w3-block w3-small w3-blue w3-margin-top w3-hover-blue" onclick="location.reload()">Recarregar página</button>
     </div>
     <div class="w3-card w3-margin-top" style="padding-bottom:15px">
       <div v-for="obj in ubs" class="w3-small">
@@ -45,7 +45,7 @@ export default {
         if ((localStorage.getItem('id_user') == null)) {
           window.location.href = '#/'
         }else{
-          this.$http.get('http://10.0.1.244:3000/outpost/').then(response => {
+          this.$http.get('http://localhost:3000/outposts').then(response => {
             this.ubs = response.data;
             this.load = false;
           //Erro nas atradas
