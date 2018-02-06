@@ -1,0 +1,111 @@
+{
+  "users": [ 
+    {
+      "Nome": "A",
+      "Matricula": "1",
+      "id_user": "1",
+      "Dt_Nasc": "1999-01-01",
+      "Cartao_Sus": "1",
+      "Sexo": "M",
+      "Cep": "14400-000"
+    },
+    {
+      "Nome": "B",
+      "Matricula": "2",
+      "id_user": "2",
+      "Dt_Nasc": "1999-01-01",
+      "Cartao_Sus": "2",
+      "Sexo": "M",
+      "Cep": "14400-000"
+    },
+    {
+      "Nome": "C",
+      "Matricula": "3",
+      "id_user": "3",
+      "Dt_Nasc": "1999-01-01",
+      "Cartao_Sus": "3",
+      "Sexo": "M",
+      "Cep": "14400-000"
+    },
+    {
+      "Nome": "D",
+      "Matricula": "4",
+      "id_user": "4",
+      "Dt_Nasc": "1999-01-01",
+      "Cartao_Sus": "4",
+      "Sexo": "M",
+      "Cep": "14400-000"
+    },
+    {
+      "Nome": "E",
+      "Matricula": "5",
+      "id_user": "5",
+      "Dt_Nasc": "1999-01-01",
+      "Cartao_Sus": "5",
+      "Sexo": "M",
+      "Cep": "14400-000"
+    },
+    {
+      "Nome": "F",
+      "Matricula": "6",
+      "id_user": "6",
+      "Dt_Nasc": "1999-01-01",
+      "Cartao_Sus": "6",
+      "Sexo": "M",
+      "Cep": "14400-000"
+    },
+    {
+      "Nome": "G",
+      "Matricula": "7",
+      "id_user": "7",
+      "Dt_Nasc": "1999-01-01",
+      "Cartao_Sus": "7",
+      "Sexo": "M",
+      "Cep": "14400-000"
+    }
+  ],
+  "vacines": [
+    {
+      "id_user": "1",
+      "ok": {},
+      "coming": {},
+      "late": {}
+    },
+    {
+      "id_user": "2",
+      "ok": {},
+      "coming": {},
+      "late": {}
+    },
+    {
+      "id_user": "3",
+      "ok": {},
+      "coming": {},
+      "late": {}
+    },
+    {
+      "id_user": "4",
+      "ok": {},
+      "coming": {},
+      "late": {}
+    },
+    {
+      "id_user": "5",
+      "ok": {},
+      "coming": {},
+      "late": {}
+    },
+    {
+      "id_user": "6",
+      "ok": {},
+      "coming": {},
+      "late": {}
+    },
+    {
+      "id_user": "7",
+      "ok": {},
+      "coming": {},
+      "late": {}
+    }
+  ]
+}

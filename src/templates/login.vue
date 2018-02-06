@@ -42,7 +42,7 @@ export default {
           susCard: '',
           birthDate: ''
         },
-        resource: this.$resource('http://10.0.1.244:3000/login/'),
+        resource: this.$resource('http://localhost:3000/login/'),
         user: '',
         dados: ''
       }
@@ -57,23 +57,26 @@ export default {
       //api de login
       consultaLogin() {
         
-        this.$http.post('http://10.0.1.244:3000/login/',{susCard: this.dadosRegister.susCard, birthDate:this.dadosRegister.birthDate}).then(response => {
+        this.$http.get('http://localhost:3000/users?Cartao_Sus=' + this.dadosRegister.susCard + '&Dt_Nasc=' +  this.dadosRegister.birthDate).then(response => {
           //retorna os dados
-          this.user = response.body;
-          console.log(this.user.Matricula);
+          this.user = response.body[0];
           //api de busca dos dados do usuario
-          this.$http.get('http://10.0.1.244:3000/users/'+ this.user.Matricula).then(response => {
+          this.$http.get('http://localhost:3000/users?Matricula=' + this.user.Matricula).then(response => {
             // success callback
-            this.dados = response.data;
-            localStorage.setItem('id_user', this.user.Matricula);
-            //dados do retorno da API
-            localStorage.setItem('nome_user', this.dados.Nome);
-            localStorage.setItem('nascimento_user', this.dados.Dt_Nasc);
-            localStorage.setItem('sexo_user', this.dados.Sexo);
-            localStorage.setItem('cep_user', this.dados.Cep);
-            localStorage.setItem('sus_user', this.dados.Cartao_Sus);
-            this.load = false;
-            window.location.href = '#/home'
+            if (response.body.length == 1) {
+              this.dados = response.body[0];
+              localStorage.setItem('id_user', this.user.Matricula);
+              //dados do retorno da API
+              localStorage.setItem('nome_user', this.dados.Nome);
+              localStorage.setItem('nascimento_user', this.dados.Dt_Nasc);
+              localStorage.setItem('sexo_user', this.dados.Sexo);
+              localStorage.setItem('cep_user', this.dados.Cep);
+              localStorage.setItem('sus_user', this.dados.Cartao_Sus);
+              this.load = false;
+              window.location.href = '#/home'
+            } else {
+              console.log('1');
+            }
           
           }, response => {
             // error callback
