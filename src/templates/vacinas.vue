@@ -101,7 +101,8 @@
           </thead>
           <tr v-for="vacinaOk in vacinasTomadas">
             <td>{{vacinaOk.date}}</td>
-            <td>{{vacinaOk.name}} {{vacinaOk.dose}}º Dose</td>
+            <td v-if="vacinaOk.dose == 'U'">{{vacinaOk.name}} Dose Única</td>
+            <td v-else>{{vacinaOk.name}} {{vacinaOk.dose}}º Dose</td>
           </tr>
         </div>
       </div>
@@ -134,14 +135,14 @@ export default {
           this.user = localStorage.getItem('id_user');
           
           //Vacinas Tommadas
-          this.$http.get('http://10.0.1.244:3000/users/vacine/ok/'+ this.user).then(response => {
+          this.$http.get('http://localhost:3000/vacines?status=ok&id_user=' + this.user).then(response => {
             this.vacinasTomadas = response.data;
             
             //Vacinas Proximas
-            this.$http.get('http://10.0.1.244:3000/users/vacine/coming/'+ this.user).then(response => {
+            this.$http.get('http://localhost:3000/vacines?status=coming&id_user='+ this.user).then(response => {
               
               //Vacinas Atrasadas
-              this.$http.get('http://10.0.1.244:3000/users/vacine/late/'+ this.user).then(response => {
+              this.$http.get('http://localhost:3000/vacines?status=late&id_user='+ this.user).then(response => {
                 this.vacinasAtrasadas = response.data;
                 this.load = false;
 
@@ -159,7 +160,7 @@ export default {
               alert('Erro ao solicitar Proximas');
             });
 
-          //Erro nas proximas
+          //Erro nas tomadas
           }, response => {
             this.load = false;
             alert('Erro ao solicitar Tomadas');
